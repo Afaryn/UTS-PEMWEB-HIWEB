@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+body{
+  background-color: #FFFBE5;
+}
+#playfair{
+  font-family: 'Playfair Display', serif;
+}
+#montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+#poppin{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+nav{
+  position: fixed;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #c2c5bee1;
+}
+
+.navbar-brand{
+  font-family: 'Playfair Display', serif;
+  color: #503037;
+}
+
+.nav-link{
+  font-family: 'Poppins', sans-serif;
+  color: #503037;
+  font-weight: 600;
+}
+
+/* CONTENT */
+/*HOME*/
+.banner-image{
+  background-image: url(img/Rectangle\ 1.png);
+  background-size: cover;
+}
+
+
+.bg-kopi{
+  background-image: url(img/bg-kopi.png);
+  background-position: top;
+  background-size: cover;
+}
+
+#title{
+  vertical-align: top;
+  text-align: center;
+}
+
+/*MENU*/
+#header-bg{
+  background-image: url(/img/bg-header-menu.png);
+  background-size:cover ;
+  width: 100w;
+  height: 25vh;
+}
+
+.bar-menu{
+  background-image: url(/img/Rectangle\ 120.png);
+  background-size: cover;
+  text-decoration: none;
+  height: 5vh;
+}
+
+.bar-menu a{
+  text-decoration: none;
+  color: #000;
+}
+
+.bar-menu a:active{
+  color:aliceblue;
+  font-weight: 600;
+  background-color: #60464b;
+}
+
+#header-menu .display-1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.bar-menu .menu.active{
+  background: #60464b;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.bar-menu .menu.active a, .bar-menu .menu.active a:hover{
+  color: aliceblue;
+}
+
+.content-food {
+  background-image: url(/img/bg-content-menu.png);
+  background-size: cover;
+  height: 100vh;
+  background-position: top;
+  background-repeat: repeat-y;
+}
+
+.food h1{
+  font-family: 'Playfair Display', serif;
+}
+
+.food p, .card-body.harga p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-body .harga h3{
+  font-family: 'Playfair Display', serif;
+  text-align: end;
+  margin-right: 5vw;
+}
+
+.card-body .harga h2{
+  font-family: 'Playfair Display', serif;
+  text-align: start;
+  margin-right: 5vw;
+}
+
+
