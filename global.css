@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Playfair+Display:wght@700;900&family=Poppins:wght@400;500&display=swap");
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Playfair Display', serif;
@@ -23,12 +23,14 @@ nav {
   margin-top: 15px;
   margin-left: 20px;
   margin-right: 20px;
-  background: #c2c5bee1;
+  background: #c2c5bef0;
 }
 
 .navbar-brand {
   font-family: "Playfair Display", serif;
   color: #503037;
+  font-weight: 900;
+  font-size: 25px;
 }
 
 .nav-link {
@@ -43,12 +45,12 @@ nav {
   background-image: url(img/Rectangle\ 1.png);
   background-size: cover;
 }
-#promo{
+#promo {
   background-image: url(img/bg-kopi.png);
   background-position: top;
   background-size: cover;
-  background-repeat:no-repeat;
-
+  background-repeat: no-repeat;
+  background-position-y: 100%, top;
 }
 
 .bg-kopi {
@@ -67,36 +69,37 @@ nav {
   padding-right: 5vw;
 }
 
-.content-promo .promo-of-the-week p{
-  font-family: 'Poppins', sans-serif;
+.content-promo .promo-of-the-week p {
+  font-family: "Poppins", sans-serif;
   padding-top: 30px;
 }
 
-#event{
+#event {
   background-image: url(img/bg-home.png);
-  background-size:cover;
-  background-repeat:no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: top;
   height: 100%;
 }
 
-.content-event img{
+.content-event img {
   width: 30vh;
 }
 
-.title-event{
+.title-event {
   padding-left: 5vw;
   padding-right: 5vw;
 }
 
-.title-event p{
-  font-family: 'Poppins', sans-serif;
+.title-event p {
+  font-family: "Poppins", sans-serif;
 }
 
+.card-event #card-event {
+  padding: 20px;
+}
 
-
-
-.card-event .card{
+.card-event .card {
   width: 40vh;
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -105,9 +108,9 @@ nav {
   -o-border-radius: 15px;
 }
 
-.card-event .card img{
+.card-event .card img {
   width: inherit;
-  height: 40vh;
+  height: 50vh;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -115,14 +118,69 @@ nav {
   -o-border-radius: 15px;
 }
 
-.card-event .card-body h2{
-  font-family: 'Poppins', sans-serif;
+.card-event .card-body h3 {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
-.card-event .card-body p{
-  font-family: 'Poppins', sans-serif;
+.card-event .card-body p {
+  font-family: "Poppins", sans-serif;
 }
+
+#drink {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(img/bg-home-1.png);
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: color;
+}
+
+.card-drink .card-body h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  color: #b77b44;
+}
+
+.card-drink .card-body h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #6d4809;
+}
+.card-drink .card-body p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #b77b44;
+}
+
+#food {
+  background-image: url(img/bg-home-2.png);
+  background-size: cover;
+  background-position: top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-food .card-body h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  color: #d3c9bf;
+}
+
+.card-food .card-body h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #d3ae6d;
+}
+.card-food .card-body p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #d3c9bf;
+}
+
+
 /*MENU*/
 #header-bg {
   background-image: url(/img/bg-header-menu.png);
@@ -195,5 +253,3 @@ nav {
   text-align: start;
   margin-right: 5vw;
 }
-
-

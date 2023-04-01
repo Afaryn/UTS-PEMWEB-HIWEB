@@ -16,15 +16,12 @@
   <body>
     <!--NAVIGATION BAR/HEADER-->
     <section>
-      <nav
-        class="navbar fixed-top navbar-expand-lg navbar-light"
-        style="background-color: #c2c5bee1"
-      >
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container">
           <a
             class="navbar-brand p-2 m-auto display-1"
             style="color: #503037"
-            href="/"
+            href="#"
             >HI JEANS CAFE</a
           >
           <button
@@ -235,7 +232,7 @@
     </section>
 
     <section id="event">
-      <div class="w-100 content-event d-block">
+      <div class="w-100 content-event d-block pb-5">
         <div class="d-flex align-items-center justify-content-center p-4">
           <img src="img/decoration-3.png" id="decoration" />
         </div>
@@ -248,7 +245,7 @@
             style="width: 10vh"
           />
           <img src="img/Line.png" class="d-block m-0 p-0" />
-          <p class="fs-3 pt-4 pb-5">
+          <p class="fs-3 pt-4 pb-3">
             Don't miss this exciting event at Hijeans Cafe!<span class="fw-bold"
               >Don't miss this opportunity</span
             >
@@ -257,32 +254,175 @@
           </p>
         </div>
 
-        <div class="card-event row row-cols-1 row-cols-md-2 g-4 w-100">
-          <div class="col d-flex justify-content-center">
-            <div class="card d-flex">
-              <img src="img/event-1.jpg" class="card-img-top img-fluid " alt="..." />
-              <div class="card-body">
-                <h2 class="card-title">HI-LLOWEEN</h2>
-                <p class="card-text fs-3">
-                  23 April 2023
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center">
+        <div
+          class="card-event w-100 row m-0 d-flex align-items-center justify-content-center"
+        >
+          <div
+            class="col-md-4 col-sm-10 d-flex align-items-center justify-content-center"
+            id="card-event"
+          >
             <div class="card">
-              <img src="img/event-2.jpg" class="card-img-top img-fluid" alt="..." />
+              <img
+                src="img/event-1.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
               <div class="card-body">
-                <h2 class="card-title">H-PITU</h2>
-                <p class="card-text fs-3">
-                  23 May 2023
-                </p>
+                <h3 class="card-title">HI-LLOWEEN</h3>
+                <p class="card-text fs-3">23 April 2023</p>
               </div>
             </div>
           </div>
-          
+          <div
+            class="col-md-4 col-sm-10 d-flex align-items-center justify-content-center"
+            id="card-event"
+          >
+            <div class="card">
+              <img
+                src="img/event-2.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">H-PITU</h3>
+                <p class="card-text fs-3">23 May 2023</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+
+    <section id="drink">
+      <div class="d-flex align-items-center justify-content-center p-5">
+        <div class="card shadow card-drink" style="max-width: 100vh">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body ps-3">
+                <h4 class="card-title align-items-end">
+                  OUR COFFEE
+                  <span
+                    ><img src="img/gelas-kopi.png" style="width: 5vh"
+                  /></span>
+                </h4>
+                <h3 class="pb-3">
+                  Choose Your Favorite
+                  <span style="color: #bf882a"> Coffee</span>
+                </h3>
+                <p class="card-text f-3">
+                  Various kinds of coffee are ready to be served by our barista
+                </p>
+                <p class="card-text">
+                  <span class="fw-bold">Coffe Delight</span>
+                  <span class="fw-bolder">.</span> Expresso
+                  <span class="fw-bolder">.</span> Late
+                </p>
+                <a
+                  class="btn btn-dark pe-3 ps-3 pb-2 pt-2 mt-2 fs-5 rounded-pill shadow"
+                  style="background-color: #795c5f"
+                  href="/menu"
+                  role="button"
+                  id="poppin"
+                  >More Menu >></a
+                >
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="img/home-minum.jpeg"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="food">
+      <div class="d-flex align-items-center justify-content-center p-5">
+        <div class="shadow card-food" style="max-width: 100vh">
+          <div
+            class="row g-0 d-flex justify-content-between align-items-center"
+          >
+            <div class="col-md-4">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/food.jpeg" class="img-fluid" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/food-2.jpeg" class="img-fluid" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/food-3.jpeg" class="img-fluid" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body pe-3 text-end border-3">
+                <h4 class="card-title align-items-end">
+                  OUR COFFEE
+                  <span
+                    ><img src="img/gelas-kopi.png" style="width: 5vh"
+                  /></span>
+                </h4>
+                <h3 class="pb-3">
+                  Choose Your Favorite
+                  <span style="color: #bf882a"> Coffee</span>
+                </h3>
+                <p class="card-text f-3">
+                  Various kinds of coffee are ready to be served by our barista
+                </p>
+                <p class="card-text">
+                  <span class="fw-bold">Coffe Delight</span>
+                  <span class="fw-bolder">.</span> Expresso
+                  <span class="fw-bolder">.</span> Late
+                </p>
+                <a
+                  class="btn btn-dark pe-3 ps-3 pb-2 pt-2 mt-2 fs-5 rounded-pill shadow"
+                  style="background-color: #795c5f"
+                  href="/menu"
+                  role="button"
+                  id="poppin"
+                  >More Menu >></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dokumentasi">
+      
     </section>
 
     <!--END MAIN CONTENT-->
