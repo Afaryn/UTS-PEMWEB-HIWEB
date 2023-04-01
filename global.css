@@ -43,11 +43,15 @@ nav {
   background-image: url(img/Rectangle\ 1.png);
   background-size: cover;
 }
-
-.bg-kopi {
+#promo{
   background-image: url(img/bg-kopi.png);
   background-position: top;
   background-size: cover;
+  background-repeat:no-repeat;
+
+}
+
+.bg-kopi {
   padding-top: 5vh;
 }
 
@@ -63,8 +67,62 @@ nav {
   padding-right: 5vw;
 }
 
+.content-promo .promo-of-the-week p{
+  font-family: 'Poppins', sans-serif;
+  padding-top: 30px;
+}
+
+#event{
+  background-image: url(img/bg-home.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: top;
+  height: 100%;
+}
+
+.content-event img{
+  width: 30vh;
+}
+
+.title-event{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.title-event p{
+  font-family: 'Poppins', sans-serif;
+}
 
 
+
+
+.card-event .card{
+  width: 40vh;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card-event .card img{
+  width: inherit;
+  height: 40vh;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card-event .card-body h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.card-event .card-body p{
+  font-family: 'Poppins', sans-serif;
+}
 /*MENU*/
 #header-bg {
   background-image: url(/img/bg-header-menu.png);
@@ -114,7 +172,7 @@ nav {
   background-size: cover;
   height: 100vh;
   background-position: top;
-  background-repeat: repeat-y;
+  background-repeat: repeat repeat-y;
 }
 
 .food h1 {
@@ -137,3 +195,5 @@ nav {
   text-align: start;
   margin-right: 5vw;
 }
+
+
