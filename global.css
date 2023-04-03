@@ -54,6 +54,8 @@ nav {
 .banner-image {
   background-image: url(img/Rectangle\ 1.png);
   background-size: cover;
+  background-attachment:fixed ;
+
 }
 #promo {
   background-image: url(img/bg-kopi.png);
@@ -103,34 +105,18 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
-.card-event #card-event {
-  padding: 20px;
-}
-
-.card-event .card {
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-
-.card-event .card img {
+#event .card img{
+  width: 30vh;
   height: 30vh;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
 }
 
-.card-event .card-body h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+#event .card{
+  width: inherit;
+  height: inherit;
 }
 
-.card-event .card-body p {
-  font-family: "Poppins", sans-serif;
+.card h3{
+  font-weight: bolder;
 }
 
 #drink {
@@ -157,12 +143,14 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #b77b44;
+  font-size: 16px;
 }
 
 #food {
   background-image: url(img/bg-home-2.png);
   background-size: cover;
   background-position: top;
+  background-attachment:fixed ;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -191,6 +179,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-attachment:fixed ;
+
 }
 
 .bar-menu {
@@ -266,6 +256,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-attachment:fixed ;
+
 }
 
 #header-menu .display-1 {
@@ -329,6 +321,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-attachment:fixed ;
+
 }
 
 .title-contact{

@@ -14,7 +14,13 @@
     <!--CSS GLOBAL-->
     <link rel="stylesheet" href="/global.css" />
     <!--FONT AWESOME-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!--========================-->
     <title>MENU PAGE</title>
   </head>
@@ -22,12 +28,12 @@
     <!--NAVBAR-->
     <section>
       <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+        <div class="container">
           <a
-            class="navbar-brand m-2"
+            class="navbar-brand m-2 logo display-1"
             style="color: #503037"
             href="/"
-            ><img src="/img/logo.png" class="h-100 "></a
+            >Hi Jeans</a
           >
           <button
             class="navbar-toggler"
@@ -77,22 +83,37 @@
     <section id="content-menu">
       <!--BAR MENU-->
       <div
-        class="bar-menu  w-100 d-flex align-items-center justify-content-center"
+        class="bar-menu w-100 d-flex align-items-center justify-content-center"
       >
         <div class="menu text-center active mt-2 mb-2">
-          <a href="#content-food" class="btn btn-light pe-5 ps-5 pb-2 pt-2 fs-5 shadow"
-          id="poppin">Foods</a>
+          <a
+            href="#collapseExample"
+            class="btn btn-light pe-5 ps-5 pb-2 pt-2 fs-5 shadow"
+            role="button"
+            id="food-btn"
+            >Foods</a
+          >
         </div>
         <div class="menu text-center mb-2 mt-2 ms-3">
-          <a href="#" class="btn btn-light pe-5 ps-5 pb-2 pt-2 fs-5 shadow" id="poppin">Drinks</a>
+          <a
+            href="#collapseExample2"
+            class="btn btn-light pe-5 ps-5 pb-2 pt-2 fs-5 shadow"
+            role="button"
+            id="drink-btn"
+            >Drinks</a
+          >
         </div>
       </div>
     </section>
 
     <section id="menu">
       <!--FOOD-->
-      <div class="content-food w-100 d-block position-relative" id="content-food">
-        <div class="food d-block">
+      <div class="food" id="collapseExample">
+        <div
+        class="content-food w-100 d-block position-relative"
+        id="content-food"
+      >
+        <div class=" d-block">
           <div class="text-center mb-5 mt-5 d-block">
             <h1>--- Snacks ---</h1>
             <p>
@@ -195,10 +216,16 @@
           </div>
         </div>
       </div>
+      </div>
+      
       <!--FOOD END-->
 
       <!--DRINK-->
-      <div class="content-food w-100 d-block position-relative " id="content-food">
+      <div class="drink" id="collapseExample2">
+        <div
+        class="content-drink w-100 d-block position-relative"
+        id="content-drink"
+      >
         <div class="food d-block">
           <div class="text-center mb-5 mt-5 d-block">
             <h1>--- Coffee Base ---</h1>
@@ -302,17 +329,83 @@
           </div>
         </div>
       </div>
+      </div>
+      
       <!--DRINK END-->
     </section>
     <!--CONTENT END-->
 
     <!-- FOOTER START-->
+    <footer class="text-center text-white" style="background-color: #f1f1f1">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <h3 class="logo" style="color: #503037">Hi Jeans Cafe</h3>
+        <h5 style="color: black; font-weight: bold">Find us on:</h5>
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Youtube -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.youtube.com/@hijeans3525"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-youtube"></i
+          ></a>
 
+          <!-- Twitter -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://twitter.com/HJeanscafe"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.instagram.com/hi.jeanscafe/?next=%2F"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center text-dark p-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2023 Copyright Hi Jeans Cafe
+      </div>
+      <!-- Copyright -->
+    </footer>
     <!--FOOTERS END-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="/js/jquery-3.6.3.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $(".menu").removeClass('active');
+          $(this).addClass('active')
+        });
+        $("#food-btn").click(function () {
+          $(".food").show();
+          $(".drink").hide();
+        });
+        $("#drink-btn").click(function () {
+          $(".food").hide();
+          $(".drink").show();
+        });
+       
+      });
+    </script>
   </body>
 </html>
