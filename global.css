@@ -35,8 +35,9 @@ nav {
 
 .nav-link {
   font-family: "Poppins", sans-serif;
-  color: #503037;
+  color: #000;
   font-weight: 600;
+  font-weight: bold;
 }
 
 /* CONTENT */
@@ -49,8 +50,6 @@ nav {
   background-image: url(img/bg-kopi.png);
   background-position: top;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: 100%, top;
 }
 
 .bg-kopi {
@@ -130,8 +129,7 @@ nav {
 #drink {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url(img/bg-home-1.png);
-  background-size: cover;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1002%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(82%2c 77%2c 49%2c 1)'%3e%3c/rect%3e%3cpath d='M -407.5446937649262%2c344 C -311.54%2c329 -119.54%2c242.6 72.4553062350738%2c269 C 264.46%2c295.4 360.46%2c495.2 552.4553062350737%2c476 C 744.46%2c456.8 840.46%2c177.4 1032.4553062350737%2c173 C 1224.46%2c168.6 1430.95%2c437.2 1512.4553062350737%2c454 C 1593.96%2c470.8 1454.49%2c296.4 1440%2c257' stroke='rgba(237%2c 241%2c 214%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -310.9046171892446%2c405 C -214.9%2c340.8 -22.9%2c104.6 169.0953828107554%2c84 C 361.1%2c63.4 457.1%2c285 649.0953828107554%2c302 C 841.1%2c319 937.1%2c152 1129.0953828107554%2c169 C 1321.1%2c186 1546.91%2c368.2 1609.0953828107554%2c387 C 1671.28%2c405.8 1473.82%2c287.8 1440%2c263' stroke='rgba(237%2c 241%2c 214%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -633.8641596536877%2c458 C -537.86%2c406.4 -345.86%2c197 -153.86415965368775%2c200 C 38.14%2c203 134.14%2c467.6 326.13584034631225%2c473 C 518.14%2c478.4 614.14%2c235.6 806.1358403463123%2c227 C 998.14%2c218.4 1159.36%2c437 1286.1358403463123%2c430 C 1412.91%2c423 1409.23%2c239.6 1440%2c192' stroke='rgba(237%2c 241%2c 214%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -463.7394024176358%2c381 C -367.74%2c325.2 -175.74%2c92.6 16.260597582364227%2c102 C 208.26%2c111.4 304.26%2c427.6 496.2605975823642%2c428 C 688.26%2c428.4 784.26%2c95.8 976.2605975823642%2c104 C 1168.26%2c112.2 1363.51%2c443.8 1456.2605975823642%2c469 C 1549.01%2c494.2 1443.25%2c277.8 1440%2c230' stroke='rgba(237%2c 241%2c 214%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1002'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");  background-size: cover;
   background-position: top;
   background-blend-mode: color;
 }
@@ -162,7 +160,7 @@ nav {
   padding-bottom: 30px;
 }
 
-.card-food .card-body h4 {
+.card-food h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: oblique;
@@ -180,30 +178,31 @@ nav {
   color: #d3c9bf;
 }
 
-
 /*MENU*/
 #header-bg {
   background-image: url(/img/bg-header-menu.png);
   background-size: cover;
-  width: 100w;
-  height: 25vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .bar-menu {
   background-image: url(/img/Rectangle\ 120.png);
   background-size: cover;
+  background-position: top;
   text-decoration: none;
 }
 
 .bar-menu a {
   text-decoration: none;
-  color: #000;
+  color: #fffbe5;
+  background-color: #60464b;
 }
 
 .bar-menu a:active {
   color: aliceblue;
   font-weight: 600;
-  background-color: #60464b;
+  background-color: #89767a;
 }
 
 #header-menu .display-1 {
@@ -212,7 +211,7 @@ nav {
 }
 
 .bar-menu .menu.active {
-  background: #60464b;
+  background: #89767a;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -223,12 +222,12 @@ nav {
 .bar-menu .menu.active a,
 .bar-menu .menu.active a:hover {
   color: aliceblue;
+  background: #89767a;
 }
 
-.content-food {
+#menu {
   background-image: url(/img/bg-content-menu.png);
   background-size: cover;
-  height: 100vh;
   background-position: top;
   background-repeat: repeat repeat-y;
 }
@@ -252,4 +251,78 @@ nav {
   font-family: "Playfair Display", serif;
   text-align: start;
   margin-right: 5vw;
+}
+
+/*LOCATION*/
+#bg-header-location {
+  background-image: url(img/bg-header-location.png);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#header-menu .display-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+#title-location h2 {
+  font-family: "Playfair Display", serif;
+}
+
+#title-location p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#title-location {
+  background-image: url(img/bg-title-location.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#content-location h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+#content-location p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#title-location .d-block {
+  border-color: #503037;
+  border: #503037 solid 3px;
+  border-left: 0;
+  border-right: 0;
+}
+
+#content-location {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1470%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 251%2c 229%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c235 C 72%2c198.4 216%2c49.6 360%2c52 C 504%2c54.4 576%2c235 720%2c247 C 864%2c259 936%2c116.6 1080%2c112 C 1224%2c107.4 1368%2c201.6 1440%2c224L1440 560L0 560z' fill='rgba(200%2c 182%2c 166%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c358 C 57.6%2c394.6 172.8%2c554.8 288%2c541 C 403.2%2c527.2 460.8%2c295.6 576%2c289 C 691.2%2c282.4 748.8%2c490.2 864%2c508 C 979.2%2c525.8 1036.8%2c376.8 1152%2c378 C 1267.2%2c379.2 1382.4%2c486.8 1440%2c514L1440 560L0 560z' fill='rgba(141%2c 123%2c 104%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1470'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");  background-size: cover;
+  background-position: center;
+}
+
+#content-location .card{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/*CONTACT US*/
+#bg-header-contact{
+  background-image: url(img/bg-header-location.png);
+  background-position: top;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.title-contact{
+  background-image: url(img/bg-title-location.png);
+  background-position: center;
+  background-size: cover;
 }
