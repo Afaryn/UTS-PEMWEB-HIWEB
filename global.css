@@ -54,7 +54,6 @@ nav {
 .banner-image {
   background-image: url(img/Rectangle\ 1.png);
   background-size: cover;
-  background-attachment: fixed;
 }
 #promo {
   background-image: url(img/bg-kopi.png);
@@ -312,7 +311,7 @@ nav {
 
 /*CONTACT US*/
 #form {
-  background-image: url(img/Wave\\(2\).svg);
+  background-image: url(img/Wave\ \(2\).svg);
   background-size: cover;
 }
 #bg-header-contact {
