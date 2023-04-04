@@ -52,8 +52,9 @@ nav {
 /* CONTENT */
 /*HOME*/
 .banner-image {
-  background-image: url(img/Rectangle\ 1.png);
+  background-image: url(img/Rectangle-1.png);
   background-size: cover;
+  background-position: center;
 }
 #promo {
   background-image: url(img/bg-kopi.png);
@@ -311,7 +312,7 @@ nav {
 
 /*CONTACT US*/
 #form {
-  background-image: url(img/Wave\ \(2\).svg);
+  background-image: url(img/Wave.svg);
   background-size: cover;
 }
 #bg-header-contact {
